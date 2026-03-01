@@ -1,12 +1,20 @@
 # Speech Information Processing (PhD)
-
-Instructor: Prof. Tomoko Matsui  
+ 
 Shenzhen Loop Area Institute (SLAI)
 
-This repository contains course materials, assignments, templates, and example code for the PhD course "Speech Information Processing".
+## Course Staff
+
+Instructor:
+- Prof. Tomoko Matsui
+
+Co-Instructors:
+- Prof. Zhaojie Luo (Weeks 11–13)
+- Prof. Shuai Wang (Week 9)
+
+Teaching Assistant:
+- Wenpu Sun
 
 ---
-
 ## Course Phases
 
 - Phase A (Weeks 1–3): Signal foundations
