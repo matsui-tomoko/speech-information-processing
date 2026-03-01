@@ -9,25 +9,18 @@ This repository contains course materials, assignments, templates, and example c
 
 ## Course Phases
 
-### Phase A (Weeks 1–3): Signal & Feature Foundations
-- Observation model, convolution, stationarity
-- Minimal pipelines and statistical tests
+- Phase A (Weeks 1–3): Signal foundations
+- Phase B (Weeks 4–6): Classical → deep models
+- Phase C (Weeks 7–10): Bayesian modeling & speech drift
+- Phase D (Weeks 11–13): Explainability & statistical claimability
 
-### Phase B (Weeks 4–6): Classical → Deep Speech Models
-- From GMM/HMM to CNN, LSTM, Transformer, RNN-T
-- Speaker recognition with embeddings
+- Weeks 14–17: Research design & project defense
 
-### Phase C (Weeks 7–10): Bayesian, Generative & Multimodal
-- Bayesian deep learning, uncertainty calibration
-- Medical audio, multimodal sentiment, VAE & diffusion
+Guest Lecturer:
+- Week 9:  Prof. Shuai Wang
 
-### Phase D (Weeks 11–14): Explainability & Drift
-- Saliency, calibration, spatio-temporal variation
-- Mid-project rehearsal, metrics clinic
-
-### Weeks 15–17
-Industry Seminar or Research Paper Discussions  
-Final Project Showcase (oral + poster presentations)
+Second Lecturer:
+- Weeks 11–13:  Prof. Zhaojie Luo
 
 ---
 
