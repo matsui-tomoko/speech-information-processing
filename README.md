@@ -47,3 +47,11 @@ All experiments must:
 - Fix and record random seeds
 - Report uncertainty (e.g., 95% confidence intervals)
 - Include a decision table linking diagnostics to actions
+
+---
+
+## Teaching Data
+
+Synthetic teaching data is available under:
+
+`data/audio_samples.zip`
