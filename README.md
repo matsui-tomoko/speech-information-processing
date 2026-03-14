@@ -50,9 +50,38 @@ All experiments must:
 - Include a decision table linking diagnostics to actions
 
 ---
-
 ## Teaching Data
 
-Synthetic teaching data is available under:
+Synthetic teaching data used for the hands-on experiments is available under:
 
 `data/audio_samples.zip`
+
+---
+
+## Recent Updates
+
+### Week 3 Materials
+
+The Week 3 materials have been added to the repository.
+
+Updates include:
+
+- Updated teaching dataset  
+  `data/audio_samples.zip` now includes **synthetic speech samples** generated for robustness experiments.
+
+- Week 3 notebooks:
+
+  - `notebooks/SIP_Week3_Synthetic_Data_Generation.ipynb`  
+    Generates synthetic speech data used in the experiments.
+
+  - `notebooks/SIP_Week3_Template.ipynb`  
+    Main notebook for the Week 3 hands-on robustness experiments.
+
+The Week 3 notebooks implement the following experiments:
+
+1. Baseline feature extraction (clean speech)
+2. Noise augmentation (different SNR levels)
+3. Reverberation experiments (different RT60 values)
+4. Combined noise + reverberation
+
+These experiments analyze the **robustness of log-Mel and MFCC features under realistic acoustic distortions**.
