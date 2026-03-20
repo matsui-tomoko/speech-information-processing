@@ -60,28 +60,33 @@ Synthetic teaching data used for the hands-on experiments is available under:
 
 ## Recent Updates
 
-### Week 3 Materials
+### Week 4 Materials
 
-The Week 3 materials have been added to the repository.
+- Classical ASR (GMM-HMM)
+- Notebook:
+  `notebooks/SIP_Week4_Template.ipynb`
 
-Updates include:
+### Week 5 Preview
 
-- Updated teaching dataset  
-  `data/audio_samples.zip` now includes **synthetic speech samples** generated for robustness experiments.
+- Deep ASR (CTC, neural models)
 
-- Week 3 notebooks:
+## Archive: Previous Weeks
 
-  - `notebooks/SIP_Week3_Synthetic_Data_Generation.ipynb`  
-    Generates synthetic speech data used in the experiments.
+### Week 3 — Robustness Experiments
 
-  - `notebooks/SIP_Week3_Template.ipynb`  
-    Main notebook for the Week 3 hands-on robustness experiments.
+Materials:
 
-The Week 3 notebooks implement the following experiments:
+- `data/audio_samples.zip`
+- `notebooks/SIP_Week3_Synthetic_Data_Generation.ipynb`
+- `notebooks/SIP_Week3_Template.ipynb`
 
-1. Baseline feature extraction (clean speech)
-2. Noise augmentation (different SNR levels)
-3. Reverberation experiments (different RT60 values)
-4. Combined noise + reverberation
+Experiments:
+1. Clean speech baseline
+2. Noise augmentation
+3. Reverberation
+4. Combined distortions
 
-These experiments analyze the **robustness of log-Mel and MFCC features under realistic acoustic distortions**.
+Focus:
+• robustness of log-Mel and MFCC features
+
+

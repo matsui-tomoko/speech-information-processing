@@ -59,3 +59,25 @@ Experiments include:
 Synthetic teaching data is provided in:
 
 `data/audio_samples.zip`
+
+## Week 4 — Classical ASR (GMM/HMM + Viterbi)
+
+In this week, we study classical speech recognition based on probabilistic sequence models.
+
+### Topics
+- Hidden Markov Models (HMM)
+- EM / Baum–Welch training
+- Viterbi decoding
+- Model selection (AIC/BIC)
+
+### Exercise
+We build a simple ASR system step by step:
+
+1. Segment speech into word-level units (YESNO dataset)
+2. Extract MFCC features
+3. Train HMMs for each class (lo / ken)
+4. Decode using Viterbi
+5. Evaluate classification accuracy
+6. Compare models using AIC / BIC
+
+Notebook: notebooks/SIP_Week4_Template.ipynb
