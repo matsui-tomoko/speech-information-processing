@@ -60,6 +60,8 @@ Synthetic teaching data is provided in:
 
 `data/audio_samples.zip`
 
+---
+
 ## Week 4 — Classical ASR (GMM/HMM + Viterbi)
 
 In this week, we study classical speech recognition based on probabilistic sequence models.
@@ -80,4 +82,68 @@ We build a simple ASR system step by step:
 5. Evaluate classification accuracy
 6. Compare models using AIC / BIC
 
-Notebook: notebooks/SIP_Week4_Template.ipynb
+Notebook: `notebooks/SIP_Week4_Template.ipynb`
+
+---
+
+## Week 5 — CTC-Based ASR
+
+Week 5 introduces Connectionist Temporal Classification (CTC) for sequence modeling.
+
+### Topics
+- CTC formulation
+- alignment without frame-level labels
+- independence assumption
+- decoding (collapse + remove blanks)
+
+### Exercise
+We implement a simple CTC-based ASR system:
+
+1. Load speech data (YESNO dataset)
+2. Extract log-Mel features
+3. Train a neural network with CTC loss
+4. Decode predictions
+5. Evaluate performance (WER / CER)
+
+Notebook: `notebooks/SIP_Week5_Template.ipynb`
+
+---
+
+## Week 6 — Modern ASR and Attention
+
+Week 6 connects CTC with modern deep learning-based ASR systems.
+
+### Topics
+- wav2vec 2.0 (pretrained encoder)
+- CTC decoding in real ASR systems
+- attention and multi-head attention
+- global vs local context
+- latency vs accuracy trade-off
+
+### Exercise
+We analyze real ASR behavior through experiments:
+
+1. Run CTC-based ASR (wav2vec + CTC decoding)
+2. Visualize attention weights from the model
+3. Simulate latency by limiting future context
+4. Perform final analysis of model behavior
+
+### Notes
+- No training is required
+- All experiments run on CPU
+- Data is downloaded automatically in the notebook
+- Pip dependency warnings can be ignored if execution succeeds
+
+Notebook: `notebooks/SIP_Week6_Template.ipynb`
+
+---
+
+## Learning Progression
+
+Week 5:
+→ Understand CTC (alignment and decoding)
+
+Week 6:
+→ Run real ASR systems  
+→ Understand attention mechanisms  
+→ Analyze real-world constraints (latency)

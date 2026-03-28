@@ -1,6 +1,8 @@
 # Speech Information Processing (PhD)
- 
+
 Shenzhen Loop Area Institute (SLAI)
+
+---
 
 ## Course Staff
 
@@ -15,20 +17,15 @@ Teaching Assistant:
 - Wenpu Sun
 
 ---
+
 ## Course Phases
 
-- Phase A (Weeks 1–3): Signal foundations
-- Phase B (Weeks 4–6): Classical → deep models
-- Phase C (Weeks 7–10): Bayesian modeling & speech drift
-- Phase D (Weeks 11–13): Explainability & statistical claimability
+- Phase A (Weeks 1–3): Signal foundations  
+- Phase B (Weeks 4–6): Classical → deep models  
+- Phase C (Weeks 7–10): Representation learning & speaker modeling  
+- Phase D (Weeks 11–13): Explainability & statistical claimability  
 
-- Weeks 14–17: Research design & project defense
-
-Guest Lecturer:
-- Week 9:  Prof. Shuai Wang
-
-Second Lecturer:
-- Weeks 11–13:  Prof. Zhaojie Luo
+- Weeks 14–17: Research design & project defense  
 
 ---
 
@@ -44,12 +41,13 @@ This repository does **not** host copyrighted datasets.
 ## Reproducibility Policy
 
 All experiments must:
-- Log configuration settings
-- Fix and record random seeds
-- Report uncertainty (e.g., 95% confidence intervals)
-- Include a decision table linking diagnostics to actions
+- Log configuration settings  
+- Fix and record random seeds  
+- Report uncertainty (e.g., 95% confidence intervals)  
+- Include a decision table linking diagnostics to actions  
 
 ---
+
 ## Teaching Data
 
 Synthetic teaching data used for the hands-on experiments is available under:
@@ -58,35 +56,53 @@ Synthetic teaching data used for the hands-on experiments is available under:
 
 ---
 
-## Recent Updates
+## Current Focus
 
-### Week 4 Materials
+### Week 5 — CTC-Based ASR
 
-- Classical ASR (GMM-HMM)
-- Notebook:
-  `notebooks/SIP_Week4_Template.ipynb`
+Topics:
+- Connectionist Temporal Classification (CTC)  
+- alignment without frame-level labels  
+- independence assumption  
+- decoding (collapse + blank removal)  
 
-### Week 5 Preview
+Notebook:
+- `notebooks/SIP_Week5_Template.ipynb`
 
-- Deep ASR (CTC, neural models)
+---
 
-## Archive: Previous Weeks
+### Week 6 — Modern ASR and Attention
 
-### Week 3 — Robustness Experiments
+Topics:
+- wav2vec 2.0 (pretrained encoder)  
+- CTC decoding in real ASR systems  
+- attention and multi-head attention  
+- global vs local context  
+- latency vs accuracy trade-off  
 
-Materials:
+Notebook:
+- `notebooks/SIP_Week6_Template.ipynb`
 
-- `data/audio_samples.zip`
-- `notebooks/SIP_Week3_Synthetic_Data_Generation.ipynb`
-- `notebooks/SIP_Week3_Template.ipynb`
+---
 
-Experiments:
-1. Clean speech baseline
-2. Noise augmentation
-3. Reverberation
-4. Combined distortions
+## Learning Flow
 
-Focus:
-• robustness of log-Mel and MFCC features
+Week 4:
+→ Classical ASR (HMM-based models)
 
+Week 5:
+→ CTC (alignment and decoding)
 
+Week 6:
+→ Modern ASR (wav2vec + CTC)  
+→ Attention and context modeling  
+→ Real-world constraints (latency)
+
+---
+
+## How to Run Notebooks
+
+### 1. Install required packages (only if needed)
+
+```bash
+pip install torchaudio transformers matplotlib
