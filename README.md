@@ -21,8 +21,8 @@ Teaching Assistant:
 ## Course Phases
 
 - Phase A (Weeks 1–3): Signal foundations  
-- Phase B (Weeks 4–6): Classical → deep models  
-- Phase C (Weeks 7–10): Representation learning & speaker modeling  
+- Phase B (Weeks 4–7): Classical → deep models and representation learning  
+- Phase C (Weeks 8–10): Uncertainty, decision making, and generative modeling
 - Phase D (Weeks 11–13): Explainability & statistical claimability  
 
 - Weeks 14–17: Research design & project defense  
