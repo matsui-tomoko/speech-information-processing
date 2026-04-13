@@ -147,3 +147,16 @@ Week 6:
 → Run real ASR systems  
 → Understand attention mechanisms  
 → Analyze real-world constraints (latency)
+
+## Week 7: Representation and Speaker Modeling
+
+Topics include:
+
+- embedding representation \( z = f_\theta(x) \)
+- similarity and distance (Euclidean, cosine)
+- speaker embeddings (d-vector, x-vector, ECAPA)
+- visualization (PCA, t-SNE)
+- distance analysis and robustness
+
+The notebook focuses on understanding embedding geometry through visualization and simple experiments.
+

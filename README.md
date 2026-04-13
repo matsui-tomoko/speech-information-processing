@@ -85,6 +85,22 @@ Notebook:
 
 ---
 
+### Week 7 — Representation and Speaker Modeling
+
+This week focuses on how speech signals are transformed into embedding representations, and how these representations encode speaker identity and enable similarity-based decisions.
+
+Topics:
+- representation learning \( z = f_\theta(x) \)  
+- feature vs embedding  
+- similarity and distance (Euclidean, cosine)  
+- speaker embeddings (d-vector, x-vector, ECAPA)  
+- embedding geometry (clustering, separability, invariance)  
+- robustness and domain shift  
+
+Notebook:
+- `notebooks/SIP_Week7_Template.ipynb`
+---
+
 ## Learning Flow
 
 Week 4:
@@ -97,6 +113,10 @@ Week 6:
 → Modern ASR (wav2vec + CTC)  
 → Attention and context modeling  
 → Real-world constraints (latency)
+
+Week 7:
+→ Representation learning  
+→ Speaker modeling (who is speaking)
 
 ---
 
