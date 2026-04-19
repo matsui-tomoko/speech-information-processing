@@ -99,6 +99,22 @@ Topics:
 
 Notebook:
 - `notebooks/SIP_Week7_Template.ipynb`
+
+---
+
+### Week 8 — Uncertainty and Decision Making
+
+This week focuses on how prediction is connected to uncertainty and decision making, with a simple medical-audio example.
+
+Topics:
+- uncertainty estimation  
+- decision under uncertainty  
+- simple cough detection system  
+- accept / refer decisions  
+
+Notebook:
+- `notebooks/SIP_Week8_Template.ipynb`
+
 ---
 
 ## Learning Flow
@@ -117,6 +133,10 @@ Week 6:
 Week 7:
 → Representation learning  
 → Speaker modeling (who is speaking)
+
+Week 8:
+→ Uncertainty and decision making  
+→ When not to decide
 
 ---
 

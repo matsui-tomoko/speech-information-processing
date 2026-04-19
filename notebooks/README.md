@@ -160,3 +160,23 @@ Topics include:
 
 The notebook focuses on understanding embedding geometry through visualization and simple experiments.
 
+## Week 8 — Uncertainty and Decision Making
+
+Week 8 focuses on how to connect prediction, uncertainty, and decision making.
+
+### Topics
+
+- simple cough detection
+- uncertainty estimation
+- event-level aggregation
+- decision making (accept / refer)
+
+### Exercise
+
+We implement a minimal system to illustrate:
+
+prediction → uncertainty → decision
+
+Notebook: `notebooks/SIP_Week8_Template.ipynb`
+
+
