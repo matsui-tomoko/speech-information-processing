@@ -115,7 +115,25 @@ Topics:
 Notebook:
 - `notebooks/SIP_Week8_Template.ipynb`
 
+
 ---
+
+### Week 10 — Gaussian Processes and Structured Variation
+
+This week introduces Gaussian Processes for modeling structured variation in speech information across time, speakers, and conditions.
+
+Topics:
+- Gaussian Processes (GP)  
+- kernel design for structured variation  
+- hierarchical modeling and decomposition  
+- multi-output GP (correlated signals)  
+- sparse GP (scalability)  
+
+Notebook:
+- `notebooks/SIP_Week10_Template.ipynb`
+
+---
+
 
 ## Learning Flow
 
@@ -137,6 +155,11 @@ Week 7:
 Week 8:
 → Uncertainty and decision making  
 → When not to decide
+
+Week 10:
+→ Modeling structured variation  
+→ Gaussian Processes (function-level modeling)  
+→ From prediction to interpretation
 
 ---
 

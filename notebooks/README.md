@@ -179,4 +179,27 @@ prediction → uncertainty → decision
 
 Notebook: `notebooks/SIP_Week8_Template.ipynb`
 
+---
+
+## Week 10 — Gaussian Processes and Structured Variation
+
+Week 10 introduces Gaussian Processes for modeling structured variation in speech data.
+
+### Topics
+
+- Gaussian Processes (GP)
+- kernel design
+- hierarchical modeling
+- multi-output GP
+- sparse GP
+
+### Exercise
+
+We use synthetic data to:
+
+- visualize different sources of variation
+- decompose signals into components
+- understand GP-based modeling and uncertainty
+
+Notebook: `notebooks/SIP_Week10_Template.ipynb`
 
